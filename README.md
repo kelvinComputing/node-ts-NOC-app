@@ -10,7 +10,8 @@ The goal is to create a series of tasks using clean architecture with typescript
     ```
     docker compose up -d
     ```
-5. Execute ``` npm run dev ```
+5. Execute ``` npx prisma migrate dev ```
+6. Execute ``` npm run dev ```
 
 ## Get Gmail key
 [Google AppPasswords](https://myaccount.google.com/u/0/apppasswords)
