@@ -11,7 +11,7 @@ export class LogRepositoryImpl implements LogRepository {
     async saveLog(log: LogEntity): Promise<void> {
         return this.logDataSource.saveLog(log);
     }
-    async getLogs(severityLevel: LogSeveritylevel): Promise<LogEntity[]> {
-        return this.logDataSource.getLogs( severityLevel );
+    async getLogs(severitylevel: LogSeveritylevel): Promise<LogEntity[]> {
+        return this.logDataSource.getLogs( severitylevel );
     }
 }

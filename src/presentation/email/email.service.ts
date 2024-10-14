@@ -54,7 +54,7 @@ export class EmailService {
             <p>Lorem asdasdasdadsasda</p>
             <p>Ver logs adjuntos</p>   
         `;
-
+               
         const attachements: Attachement[] = [
             { filename: 'logs-all.log', path: './logs/logs-all.log' },
             { filename: 'logs-high.log', path: './logs/logs-high.log' },
